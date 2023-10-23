@@ -7,7 +7,7 @@
       </div> -->
       <div class="flex flex-col md:flex-row">
         <div class="mx-2 w-full md:w-1/2">
-          <img :src="house.FigureURL" alt="" style="" class="" />
+          <img :src="house.FigureURL" alt="" style="" class="img-fluid" />
         </div>
 
         <div class="w-full md:w-1/2">
@@ -168,7 +168,7 @@
         </div>
       </div>
     </div>
-    <HouseBack />
+    <MarketBack />
   </NuxtLayout>
 </template>
 

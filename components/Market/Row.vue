@@ -1,21 +1,3 @@
-<script setup lang="ts">
-interface RowProps {
-  建案?: string;
-  AQ1?: number;
-  AQ2?: number;
-  AQ3?: number;
-  AQ4: number;
-  PQ1: number;
-  PQ2: number;
-  PQ3: number;
-  PQ4: number;
-  index: number;
-  isHeader?: boolean;
-}
-
-const props = defineProps<RowProps>();
-</script>
-
 <template>
   <div class="row" v-if="isHeader">
     <h4 class="link item-long">建案</h4>
@@ -35,7 +17,7 @@ const props = defineProps<RowProps>();
         : { background: 'rgba(255,255,255,0.1)' }
     "
   >
-    <a :href="`/houses/${建案}`" class="link item-long">{{ 建案 }}</a>
+    <a :href="`/market/${建案}`" class="link item-long">{{ 建案 }}</a>
     <p class="header item">{{ AQ1 }}</p>
     <p class="header item">{{ AQ2 }}</p>
     <p class="header item">{{ AQ3 }}</p>
@@ -44,6 +26,24 @@ const props = defineProps<RowProps>();
     <p class="header item">{{ PQ3 }}</p>
   </div>
 </template>
+
+<script setup lang="ts">
+interface RowProps {
+  建案?: string;
+  AQ1?: number;
+  AQ2?: number;
+  AQ3?: number;
+  AQ4: number;
+  PQ1: number;
+  PQ2: number;
+  PQ3: number;
+  PQ4: number;
+  index: number;
+  isHeader?: boolean;
+}
+
+const props = defineProps<RowProps>();
+</script>
 
 <style scoped>
 .row {

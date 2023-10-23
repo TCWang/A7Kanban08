@@ -27,7 +27,7 @@
       >
         <div class="lg:space-x-4 lg:flex-grow">
           <a
-            href="/intruduction"
+            href="/introduction"
             class="navbar-brand block mt-1 lg:inline-block lg:mt-0 text-indigo-200 hover:text-yellow-200"
           >
             地區介紹

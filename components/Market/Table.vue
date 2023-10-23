@@ -9,8 +9,8 @@ const housesOrganized = {
 </script>
 
 <template>
-  <div class="container">
-    <div class="table">
+  <div class="">
+    <div class="">
       <h3>A7建案 熱銷排行榜</h3>
       依據前一季成交量排序。
       <p>
@@ -20,10 +20,10 @@ const housesOrganized = {
           >李世豪 2023/08/21</a
         >。
       </p>
-      <div class="table-container">
-        <div class="table-col">
-          <HouseRowM :isHeader="true" />
-          <HouseRowM
+      <div class="">
+        <div class="">
+          <MarketRow :isHeader="true" />
+          <MarketRow
             v-for="(house, index) in housesOrganized.newSorted"
             :key="house.id"
             :建案="house.建案"
@@ -41,18 +41,4 @@ const housesOrganized = {
   </div>
 </template>
 
-<style scoped>
-.table {
-  margin: 0rem 0;
-}
-.table h3 {
-  margin-bottom: 1rem;
-}
-.table-container {
-  display: flex;
-  justify-content: space-between;
-}
-.table-col {
-  width: 100%;
-}
-</style>
+<style scoped></style>

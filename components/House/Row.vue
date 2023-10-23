@@ -1,18 +1,3 @@
-<script setup lang="ts">
-interface RowProps {
-  每坪開價?: string;
-  建案?: string;
-  一年成交均價?: string;
-  登錄筆數?: string;
-  最高實價?: string;
-  最低實價?: string;
-  index: number;
-  isHeader?: boolean;
-}
-
-const props = defineProps<RowProps>();
-</script>
-
 <template>
   <div class="row" v-if="isHeader">
     <h4 class="link item-long">建案</h4>
@@ -41,6 +26,21 @@ const props = defineProps<RowProps>();
     <p class="header item">{{ 最低實價 }}</p>
   </div>
 </template>
+
+<script setup lang="ts">
+interface RowProps {
+  每坪開價?: string;
+  建案?: string;
+  一年成交均價?: string;
+  登錄筆數?: string;
+  最高實價?: string;
+  最低實價?: string;
+  index: number;
+  isHeader?: boolean;
+}
+
+const props = defineProps<RowProps>();
+</script>
 
 <style scoped>
 .row {
