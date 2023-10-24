@@ -1,1 +1,0 @@
-import{u as e}from"./vue.f36acd1f.0ba76694.js";import{c as t,o,a}from"./entry.0572ce7b.js";const n=a("h1",null,"A7新林口-社區網站: A7重劃區 城市探索",-1),s=[n],m={__name:"index",setup(c){return e({title:"A7-城市探索",meta:[{name:"description",content:"A7新林口-社區網站: A7重劃區 城市探索 "}]}),(r,_)=>(o(),t("div",null,s))}};export{m as default};
