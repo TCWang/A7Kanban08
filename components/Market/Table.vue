@@ -1,10 +1,10 @@
 <script setup>
-import houses from "@/data/housesM.json";
+import houses from "@/data/houses.json";
 
 const housesOrganized = {
   newSorted: [...houses]
     .filter((house) => house.選擇2 === "Y")
-    .sort((a, b) => b.AQ2 - a.AQ2),
+    .sort((a, b) => b.AQ3 - a.AQ3),
 };
 </script>
 
@@ -16,8 +16,8 @@ const housesOrganized = {
       <p>
         資料來源; Facebook A7重劃區大小事 /
         <a
-          href="https://www.facebook.com/groups/1951117865015671/permalink/6307077752752972/"
-          >李世豪 2023/08/21</a
+          href="https://www.facebook.com/groups/1951117865015671/permalink/6529109273883151/?mibextid=oMANbw"
+          >李世豪 2023/10/21</a
         >。
       </p>
       <div class="">
