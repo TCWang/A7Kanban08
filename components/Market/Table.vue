@@ -4,7 +4,7 @@ import houses from "@/data/houses.json";
 const housesOrganized = {
   newSorted: [...houses]
     .filter((house) => house.選擇2 === "Y")
-    .sort((a, b) => b.AQ3 - a.AQ3),
+    .sort((a, b) => a.No - b.No),
 };
 </script>
 
@@ -12,7 +12,7 @@ const housesOrganized = {
   <div class="">
     <div class="">
       <h3>A7建案 熱銷排行榜 - 2023 Q1-Q3</h3>
-      依據Q3成交量排序。
+
       <p>
         資料來源; Facebook A7重劃區大小事 /
         <a
@@ -26,6 +26,7 @@ const housesOrganized = {
           <MarketRow
             v-for="(house, index) in housesOrganized.newSorted"
             :key="house.id"
+            :No="house.No"
             :建案="house.建案"
             :AQ1="house.實價登錄數Q1"
             :AQ2="house.實價登錄數Q2"
