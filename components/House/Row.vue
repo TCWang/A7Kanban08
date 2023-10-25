@@ -4,9 +4,9 @@
     <h4 class="header item-long">開價</h4>
 
     <h4 class="header item-long">登錄筆數</h4>
-    <h4 class="header item">均價</h4>
-    <h4 class="header item">最高</h4>
-    <h4 class="header item">最低</h4>
+    <h4 class="header item">一年均價</h4>
+    <h4 class="header item">最高實價</h4>
+    <h4 class="header item">最低實價</h4>
   </div>
   <div
     v-else

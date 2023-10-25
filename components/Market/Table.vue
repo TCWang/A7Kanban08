@@ -11,8 +11,8 @@ const housesOrganized = {
 <template>
   <div class="">
     <div class="">
-      <h3>A7建案 熱銷排行榜</h3>
-      依據前一季成交量排序。
+      <h3>A7建案 熱銷排行榜 - 2023 Q1-Q3</h3>
+      依據Q3成交量排序。
       <p>
         資料來源; Facebook A7重劃區大小事 /
         <a
@@ -27,12 +27,12 @@ const housesOrganized = {
             v-for="(house, index) in housesOrganized.newSorted"
             :key="house.id"
             :建案="house.建案"
-            :AQ1="house.AQ1"
-            :AQ2="house.AQ2"
-            :AQ3="house.AQ3"
-            :PQ1="house.PQ1"
-            :PQ2="house.PQ2"
-            :PQ3="house.PQ3"
+            :AQ1="house.實價登錄數Q1"
+            :AQ2="house.實價登錄數Q2"
+            :AQ3="house.實價登錄數Q3"
+            :PQ1="house.實價平均Q1"
+            :PQ2="house.實價平均Q2"
+            :PQ3="house.實價平均Q3"
             :index="index"
           />
         </div>
