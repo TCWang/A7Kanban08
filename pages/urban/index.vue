@@ -41,7 +41,7 @@
       </li>
       <li>
         2015/08/31<a
-          href="https://kgptltaqnkidtcqkathb.supabase.co/storage/v1/object/public/a7-file/INT-006.pdff"
+          href="https://kgptltaqnkidtcqkathb.supabase.co/storage/v1/object/public/a7-file/INT-006.pdf"
           >A7站地區都市設計審議</a
         >
       </li>
@@ -71,7 +71,7 @@
       <li>
         2022/09/20 內政部 都市計畫委員會第 1019 次會議紀錄
         <a
-          href="https://kgptltaqnkidtcqkathb.supabase.co/storage/v1/object/public/a7-file/INT-008.pdff"
+          href="https://kgptltaqnkidtcqkathb.supabase.co/storage/v1/object/public/a7-file/INT-008.pdf"
           >「變更林口特定區計畫（第四次通盤檢討）（第三階段）案</a
         >
       </li>

@@ -47,6 +47,12 @@
         class="w-full md:w-1/2 p-2 shadow-md"
         alt="A7重劃區房屋類別"
       />
+
+      <NuxtImg
+        src="https://kgptltaqnkidtcqkathb.supabase.co/storage/v1/object/public/a7-images/introduction/INT-013.png"
+        class="w-full md:w-1/2 p-2 shadow-md"
+        alt="A7行政里"
+      />
     </div>
   </div>
 </template>
