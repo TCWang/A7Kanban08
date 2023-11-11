@@ -1,6 +1,5 @@
 <template>
-  <div></div>
-  <div class="container mx-auto p-4">
+  <div class="container max-w-6xl mx-auto p-4">
     <NavBar />
     <slot />
   </div>
